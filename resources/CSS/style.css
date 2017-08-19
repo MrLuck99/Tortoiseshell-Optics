@@ -3,6 +3,14 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+header {
+  background-image: url(image/glasses-bg.png);
+  height: 31rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -34,4 +42,78 @@ nav div {
 nav img {
   height: 1.5rem;
   padding: 0rem 1rem 0rem 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.ruler img {
+  width: 5rem;
+}
+
+.truck img {
+  width: 5rem;
+}
+
+.info-header {
+  width: 10rem;
+  background-color: cadetblue;
+  display: inline-flex;
+}
+
+.info-header h4 {
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.bizinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
 }

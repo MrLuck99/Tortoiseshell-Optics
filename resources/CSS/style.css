@@ -16,6 +16,10 @@ header {
   margin: auto;
 }
 
+div {
+  display: block;
+}
+
 nav {
     padding: 1rem 0;
     background-color: cadetblue;
@@ -96,17 +100,11 @@ header .flex {
 }
 
 .info-header {
-  width: 10rem;
+  max-width: 10rem;
   background-color: cadetblue;
-  display: inline-flex;
-}
-
-.info-header h4 {
   color: white;
-  padding-left: 1.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
 }
 
 .bizinfo {
@@ -116,4 +114,23 @@ header .flex {
 
 .info {
   width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.biz-info {
+  margin-top: 3rem;
 }
